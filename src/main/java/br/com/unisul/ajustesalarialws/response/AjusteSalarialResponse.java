@@ -23,5 +23,39 @@ public class AjusteSalarialResponse {
     
     private Double salarioAjustado;
     
-    
+    private Double percentualAumentoRecebido;
+
+    public String getNomeFuncionario() {
+        return nomeFuncionario;
+    }
+
+    public void setNomeFuncionario(String nomeFuncionario) {
+        this.nomeFuncionario = nomeFuncionario;
+    }
+
+    public Double getSalarioAnterior() {
+        return salarioAnterior;
+    }
+
+    public void setSalarioAnterior(Double salarioAnterior) {
+        this.salarioAnterior = salarioAnterior;
+    }
+
+    public Double getSalarioAjustado() {
+        return salarioAjustado;
+    }
+
+    public void setSalarioAjustado(Double salarioAjustado) {
+        this.salarioAjustado = salarioAjustado;
+    }
+
+    public Double getPercentualAumentoRecebido() {
+        return percentualAumentoRecebido;
+    }
+
+    public void setPercentualAumentoRecebido(Double percentualAumentoRecebido) {
+        this.percentualAumentoRecebido = percentualAumentoRecebido;
+    }
+
+        
 }
