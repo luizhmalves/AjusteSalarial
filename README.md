@@ -1,3 +1,3 @@
 # AjusteSalarial
 Web service JAX-WS de ajuste de salário
-Aplicação em Java 11
+Aplicação em Java 1.8
